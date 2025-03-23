@@ -1,4 +1,4 @@
-# Local Market Vendor App 📦
+DIGI-MARKET is Local Market Vendor App 📦
 
 ## Overview
 The **Local Market Vendor App** is a comprehensive digital platform designed to empower small-scale vendors in local markets to compete with larger retailers. This app enables vendors to list products, manage inventory, process orders, and engage with customers while leveraging marketing tools and delivery tracking to enhance visibility and sales.
