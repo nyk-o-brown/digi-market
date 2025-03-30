@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8 ">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Company Logo and Name */}
           <div className="mb-4 md:mb-0">
-            <h2 className="text-2xl font-bold">DigiMarket</h2>
+            <h2 className="text-2xl text-[#52EA5A] ">Digi-Market</h2>
           </div>
 
           {/* Contact Information */}
@@ -36,4 +36,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer 
