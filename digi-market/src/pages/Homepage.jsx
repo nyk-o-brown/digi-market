@@ -35,11 +35,7 @@ export const CardGrid = () => {
   )
 }
 
-function Grid(){
-    return <CardGrid />
-}
-
-export default Grid
+export default CardGrid
 
 
 

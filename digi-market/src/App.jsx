@@ -1,15 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/footer'
-import './App.css'
-
-import { CardGrid } from './components/Homepage'
+import CardGrid from './pages/Homepage'  // Update import
+import Cosmetics from './pages/cosmetics'
 
 function App() {
   return (
-    <div className="  min-h-screen min-w-screen-lg  min-w-[1527px] flex flex-col   bg-grey-300">
+    <div className="min-h-screen min-w-[1527px] flex flex-col bg-grey-300">
       <Header />
       <main className="flex-1 container mx-auto px-4 py-8">
-        <CardGrid />
+        <Routes>
+          <Route path="/" element={<CardGrid />} />
+          <Route path="/cosmetics" element={<Cosmetics />} />
+        </Routes>
       </main>
       <Footer />
     </div>
