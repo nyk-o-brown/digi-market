@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Luxury Face Cream",
+      "price": 29.99,
+      "description": "Hydrating face cream with natural ingredients",
+      "category": "cosmetics",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.5, "count": 120 }
+    },
+    {
+      "id": 2,
+      "title": "Premium Lipstick Set",
+      "price": 34.99,
+      "description": "Set of 4 long-lasting matte lipsticks",
+      "category": "cosmetics",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.3, "count": 85 }
+    },
+    {
+      "id": 3,
+      "title": "Organic Foundation",
+      "price": 24.99,
+      "description": "Natural coverage foundation for all skin types",
+      "category": "cosmetics",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.7, "count": 95 }
+    },
+    {
+      "id": 4,
+      "title": "Skincare Bundle",
+      "price": 79.99,
+      "description": "Complete skincare routine package",
+      "category": "cosmetics",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.8, "count": 150 }
+    },
+    {
+      "id": 5,
+      "title": "Eye Shadow Palette",
+      "price": 44.99,
+      "description": "18-color professional eye shadow collection",
+      "category": "cosmetics",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.4, "count": 110 }
+    },
+    {
+      "id": 6,
+      "title": "Smart Refrigerator",
+      "price": 999.99,
+      "description": "Energy efficient smart fridge with touch display",
+      "category": "appliances",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.6, "count": 75 }
+    },
+    {
+      "id": 7,
+      "title": "Washing Machine",
+      "price": 549.99,
+      "description": "Front-loading washing machine with multiple programs",
+      "category": "appliances",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.4, "count": 90 }
+    },
+    {
+      "id": 8,
+      "title": "Microwave Oven",
+      "price": 129.99,
+      "description": "Digital microwave with smart cooking options",
+      "category": "appliances",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.2, "count": 65 }
+    },
+    {
+      "id": 9,
+      "title": "Coffee Maker",
+      "price": 89.99,
+      "description": "Programmable coffee maker with thermal carafe",
+      "category": "appliances",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.7, "count": 130 }
+    },
+    {
+      "id": 10,
+      "title": "Air Conditioner",
+      "price": 449.99,
+      "description": "Smart AC with energy-saving mode",
+      "category": "appliances",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.5, "count": 85 }
+    },
+    {
+      "id": 11,
+      "title": "Power Drill Set",
+      "price": 159.99,
+      "description": "Cordless drill with multiple attachments",
+      "category": "hardware",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.8, "count": 200 }
+    },
+    {
+      "id": 12,
+      "title": "Tool Box Set",
+      "price": 89.99,
+      "description": "Complete tool box with essential tools",
+      "category": "hardware",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.6, "count": 175 }
+    },
+    {
+      "id": 13,
+      "title": "Electric Saw",
+      "price": 129.99,
+      "description": "Professional grade electric circular saw",
+      "category": "hardware",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.4, "count": 95 }
+    },
+    {
+      "id": 14,
+      "title": "Paint Bundle",
+      "price": 79.99,
+      "description": "Premium paint set with brushes",
+      "category": "hardware",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.3, "count": 80 }
+    },
+    {
+      "id": 15,
+      "title": "Ladder",
+      "price": 119.99,
+      "description": "Extendable aluminum ladder",
+      "category": "hardware",
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.5, "count": 150 }
+    }
+  ]
+}

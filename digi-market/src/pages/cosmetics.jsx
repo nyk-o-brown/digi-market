@@ -1,12 +1,12 @@
 import React from 'react'
-import Products from 'digi-market/src/components/productitem.jsx'
+import Products from '../components/productitem'
 
-function cosmetics() {
+function Cosmetics() {
   return (
     <div className="flex-1">
-      <Products />
+      <Products category="cosmetics" />
     </div>
   )
 }
 
-export default cosmetics
+export default Cosmetics
