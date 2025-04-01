@@ -6,8 +6,9 @@
       "price": 29.99,
       "description": "Hydrating face cream with natural ingredients",
       "category": "cosmetics",
-      "image": "/public/images/expensive face cream.png",
-      "rating": { "rate": 4.5, "count": 120 }
+      "image": "https://via.placeholder.com/150",
+      "rating": { "rate": 4.5, "count": 120 },
+      "shop": "Mama Janes"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "Set of 4 long-lasting matte lipsticks",
       "category": "cosmetics",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.3, "count": 85 }
+      "rating": { "rate": 4.3, "count": 85 },
+      "shop": "Muthama and Sons"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "Natural coverage foundation for all skin types",
       "category": "cosmetics",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.7, "count": 95 }
+      "rating": { "rate": 4.7, "count": 95 },
+      "shop": "Omosh Retailers"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "Complete skincare routine package",
       "category": "cosmetics",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.8, "count": 150 }
+      "rating": { "rate": 4.8, "count": 150 },
+      "shop": "Mama Janes"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "description": "18-color professional eye shadow collection",
       "category": "cosmetics",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 110 }
+      "rating": { "rate": 4.4, "count": 110 },
+      "shop": "Muthama and Sons"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "description": "Energy efficient smart fridge with touch display",
       "category": "appliances",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.6, "count": 75 }
+      "rating": { "rate": 4.6, "count": 75 },
+      "shop": "Omosh Retailers"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "description": "Front-loading washing machine with multiple programs",
       "category": "appliances",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 90 }
+      "rating": { "rate": 4.4, "count": 90 },
+      "shop": "Mama Janes"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "description": "Digital microwave with smart cooking options",
       "category": "appliances",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.2, "count": 65 }
+      "rating": { "rate": 4.2, "count": 65 },
+      "shop": "Muthama and Sons"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "description": "Programmable coffee maker with thermal carafe",
       "category": "appliances",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.7, "count": 130 }
+      "rating": { "rate": 4.7, "count": 130 },
+      "shop": "Omosh Retailers"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "description": "Smart AC with energy-saving mode",
       "category": "appliances",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.5, "count": 85 }
+      "rating": { "rate": 4.5, "count": 85 },
+      "shop": "Mama Janes"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "description": "Cordless drill with multiple attachments",
       "category": "hardware",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.8, "count": 200 }
+      "rating": { "rate": 4.8, "count": 200 },
+      "shop": "Muthama and Sons"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "description": "Complete tool box with essential tools",
       "category": "hardware",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.6, "count": 175 }
+      "rating": { "rate": 4.6, "count": 175 },
+      "shop": "Omosh Retailers"
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "description": "Professional grade electric circular saw",
       "category": "hardware",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 95 }
+      "rating": { "rate": 4.4, "count": 95 },
+      "shop": "Mama Janes"
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "description": "Premium paint set with brushes",
       "category": "hardware",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.3, "count": 80 }
+      "rating": { "rate": 4.3, "count": 80 },
+      "shop": "Muthama and Sons"
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "description": "Extendable aluminum ladder",
       "category": "hardware",
       "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.5, "count": 150 }
+      "rating": { "rate": 4.5, "count": 150 },
+      "shop": "Omosh Retailers"
     }
   ]
 }
