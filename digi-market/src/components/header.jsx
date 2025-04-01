@@ -17,8 +17,8 @@ const Header = () => {
             <a href="/Orderpage" className="text-gray-600 hover:text-gray-900 transition duration-300">
               View your orders
             </a>
-            <a href="/Registrationpage" className="text-gray-600 hover:text-gray-900 transition duration-300">
-              Register your own shop
+            <a href="/AddProduct" className="text-gray-600 hover:text-gray-900 transition duration-300">
+              Add product to ur virtual store
             </a>
             <a href="/Topitems" className="text-gray-600 hover:text-gray-900 transition duration-300">
               Contact ang Legal information
