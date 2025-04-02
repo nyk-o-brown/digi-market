@@ -7,7 +7,7 @@ export const CardGrid = () => {
       <Link to="/cosmetics" className="no-underline flex-1">
         <div className="h-[500px] border rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img 
-            src="/images/cosmetics-banner.jpg" 
+            src="/images/Cosmetics.jpg" 
             alt="Cosmetics"
             className="w-full h-64 object-cover"
           />
@@ -21,7 +21,7 @@ export const CardGrid = () => {
       <Link to="/appliances" className="no-underline flex-1">
         <div className="h-[500px] border rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img 
-            src="/images/appliances-banner.jpg" 
+            src="/images/Apppliances.jpg" 
             alt="Appliances"
             className="w-full h-64 object-cover"
           />
@@ -35,7 +35,7 @@ export const CardGrid = () => {
       <Link to="/hardware" className="no-underline flex-1">
         <div className="h-[500px] border rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img 
-            src="/images/hardware-banner.jpg" 
+            src="/images/Hardwares.jpg" 
             alt="Hardware"
             className="w-full h-64 object-cover"
           />
@@ -49,7 +49,7 @@ export const CardGrid = () => {
       <Link to="/services" className="no-underline flex-1">
         <div className="h-[500px] border rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img 
-            src="/images/services-banner.jpg" 
+            src="/images/Services.jpg" 
             alt="Services"
             className="w-full h-64 object-cover"
           />
