@@ -207,6 +207,71 @@
         "rate": 0,
         "count": 0
       }
+    },
+    {
+      "id": "16",
+      "title": "Laundry Service",
+      "price": " 50 per load",
+      "description": " Professional laundry service for all types of fabrics",
+      "category": "services",
+      "image": "/images/Laundry images.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      },
+      "shop": " Gene's Laundry"
+    },
+    {
+      "id": "17",
+      "title": "Moving Service",
+      "price": " 100 per hour",
+      "description": " Professional moving service for homes and offices",
+      "category": "services",
+      "image": "/images/moving services.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      },
+      "shop": " juguna's Moving Service"
+    },
+    {
+      "id": "18",
+      "title": "Phone Repair",
+      "price": " 50 per repair",
+      "description": " Professional phone repair service for all brands",
+      "category": "services",
+      "image": "/images/phone repaire services.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      },
+      "shop": " Williams phone repair"
+    },
+    {
+      "id": "19",
+      "title": "WiFi Installation",
+      "price": " 350 per installation",
+      "description": " Professional WiFi installation service",
+      "category": "services",
+      "image": "/images/wifi services.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      },
+      "shop": " Beluga IT Solutions"
+    },
+    {
+      "id": "20",
+      "title": "Network Support",
+      "price": " 50 per connection",
+      "description": " Professional network support service",
+      "category": "services",
+      "image": "/images/network installation services.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      },
+      "shop": " yanus network support"
     }
   ]
 }
