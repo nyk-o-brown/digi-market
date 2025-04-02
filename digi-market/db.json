@@ -1,154 +1,212 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Luxury Face Cream",
       "price": 29.99,
       "description": "Hydrating face cream with natural ingredients",
       "category": "cosmetics",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.5, "count": 120 },
+      "image": "/images/expensive face cream.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 120
+      },
       "shop": "Mama Janes"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Premium Lipstick Set",
       "price": 34.99,
       "description": "Set of 4 long-lasting matte lipsticks",
       "category": "cosmetics",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.3, "count": 85 },
+      "image": "/images/premium lipstick set.png",
+      "rating": {
+        "rate": 4.3,
+        "count": 85
+      },
       "shop": "Muthama and Sons"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Organic Foundation",
       "price": 24.99,
       "description": "Natural coverage foundation for all skin types",
       "category": "cosmetics",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.7, "count": 95 },
+      "image": "/images/premium organic foundation.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 95
+      },
       "shop": "Omosh Retailers"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Skincare Bundle",
       "price": 79.99,
       "description": "Complete skincare routine package",
       "category": "cosmetics",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.8, "count": 150 },
+      "image": "/images/skin care bundle.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 150
+      },
       "shop": "Mama Janes"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Eye Shadow Palette",
       "price": 44.99,
       "description": "18-color professional eye shadow collection",
       "category": "cosmetics",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 110 },
+      "image": "/images/eye shadow.png",
+      "rating": {
+        "rate": 4.4,
+        "count": 110
+      },
       "shop": "Muthama and Sons"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Smart Refrigerator",
       "price": 999.99,
       "description": "Energy efficient smart fridge with touch display",
       "category": "appliances",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.6, "count": 75 },
+      "image": "/images/smart fridge.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 75
+      },
       "shop": "Omosh Retailers"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Washing Machine",
       "price": 549.99,
       "description": "Front-loading washing machine with multiple programs",
       "category": "appliances",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 90 },
+      "image": "/images/a washing machine.png",
+      "rating": {
+        "rate": 4.4,
+        "count": 90
+      },
       "shop": "Mama Janes"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Microwave Oven",
       "price": 129.99,
       "description": "Digital microwave with smart cooking options",
       "category": "appliances",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.2, "count": 65 },
+      "image": "/images/microwave oven.png",
+      "rating": {
+        "rate": 4.2,
+        "count": 65
+      },
       "shop": "Muthama and Sons"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Coffee Maker",
       "price": 89.99,
       "description": "Programmable coffee maker with thermal carafe",
       "category": "appliances",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.7, "count": 130 },
+      "image": "/images/coffee maker.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      },
       "shop": "Omosh Retailers"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Air Conditioner",
       "price": 449.99,
       "description": "Smart AC with energy-saving mode",
       "category": "appliances",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.5, "count": 85 },
+      "image": "/images/air conditioner.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 85
+      },
       "shop": "Mama Janes"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Power Drill Set",
       "price": 159.99,
       "description": "Cordless drill with multiple attachments",
       "category": "hardware",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.8, "count": 200 },
+      "image": "/images/a power drill.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 200
+      },
       "shop": "Muthama and Sons"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Tool Box Set",
       "price": 89.99,
       "description": "Complete tool box with essential tools",
       "category": "hardware",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.6, "count": 175 },
+      "image": "/images/tool box set.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 175
+      },
       "shop": "Omosh Retailers"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Electric Saw",
       "price": 129.99,
       "description": "Professional grade electric circular saw",
       "category": "hardware",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.4, "count": 95 },
+      "image": "/images/electric saw.png",
+      "rating": {
+        "rate": 4.4,
+        "count": 95
+      },
       "shop": "Mama Janes"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Paint Bundle",
       "price": 79.99,
       "description": "Premium paint set with brushes",
       "category": "hardware",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.3, "count": 80 },
+      "image": "/images/a sealed paint can.png",
+      "rating": {
+        "rate": 4.3,
+        "count": 80
+      },
       "shop": "Muthama and Sons"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Ladder",
       "price": 119.99,
       "description": "Extendable aluminum ladder",
       "category": "hardware",
-      "image": "https://via.placeholder.com/150",
-      "rating": { "rate": 4.5, "count": 150 },
+      "image": "/images/a ladder.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 150
+      },
       "shop": "Omosh Retailers"
+    },
+    {
+      "id": "144e",
+      "title": "cam locks",
+      "price": 40,
+      "description": "used for mounting furniture",
+      "category": "hardware",
+      "shop": "Mama Janes",
+      "image": "/images/cam lock used to assemble office furniture.png",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
     }
   ]
 }
