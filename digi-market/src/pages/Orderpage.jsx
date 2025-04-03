@@ -8,6 +8,8 @@ const OrderPage = () => {
     const savedItems = localStorage.getItem('cartItems');
     return savedItems ? JSON.parse(savedItems) : [];
   });
+  const [deliveryOption, setDeliveryOption] = useState('pick-up');
+  const [orderFulfilled, setOrderFulfilled] = useState(false);
   
   useEffect(() => {
     const addProduct = () => {
@@ -49,6 +51,33 @@ const OrderPage = () => {
     return orderItems.reduce((sum, item) => sum + parseFloat(item.price), 0).toFixed(2);
   };
 
+  const handleCheckout = () => {
+    // Clear cart items from localStorage
+    localStorage.removeItem('cartItems');
+    // Clear cart items from state
+    setOrderItems([]);
+    // Show success message
+    setOrderFulfilled(true);
+    // Hide success message after 3 seconds
+    setTimeout(() => {
+      setOrderFulfilled(false);
+      navigate('/'); // Optionally redirect to home page
+    }, 3000);
+  };
+
+  if (orderFulfilled) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="bg-white p-8 rounded-lg shadow-xl">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-green-600 mb-4">Order Fulfilled!</h2>
+            <p className="text-gray-600">Thank you for your purchase</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (!orderItems.length) {
     return <div className="p-4 text-center text-xl">No items in cart</div>;
   }
@@ -86,11 +115,30 @@ const OrderPage = () => {
       </div>
 
       <div className="mt-6 bg-white rounded-lg shadow p-6">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mb-4">
           <span className="text-xl font-bold">Total:</span>
           <span className="text-2xl text-green-600 font-bold">${calculateTotal()}</span>
         </div>
-        <button className="w-full mt-4 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">
+
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Delivery Method
+          </label>
+          <select
+            value={deliveryOption}
+            onChange={(e) => setDeliveryOption(e.target.value)}
+            className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500"
+          >
+            <option value="pick-up">Pick-up</option>
+            <option value="uber">Deliver with Uber ride</option>
+            <option value="warehouse">Deliver to warehouse</option>
+          </select>
+        </div>
+
+        <button 
+          onClick={handleCheckout}
+          className="w-full mt-4 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600"
+        >
           Proceed to Checkout
         </button>
       </div>
