@@ -7,6 +7,7 @@ import Appliances from './pages/appliances'
 import Hardware from './pages/hardware'  // Add this import
 import AddProduct from './pages/AddProduct'  // Make sure this path is correct
 import ServicesPage from './pages/services'
+import OrderPage from './pages/OrderPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/hardware" element={<Hardware />} /> {/* Changed from Hardwares to Hardware */}
           <Route path="/AddProduct" element={<AddProduct />} /> {/* Updated to match URL case */}
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/order" element={<OrderPage />} />
         </Routes>
       </main>
       <Footer />
