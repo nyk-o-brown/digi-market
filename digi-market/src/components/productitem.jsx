@@ -61,22 +61,17 @@ const Products = ({ category }) => {
               />
               <button
                 onClick={() => handleAddToOrder(product)}
-                className="absolute top-2 right-2 w-8 h-8 bg-green-500 rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center hover:bg-green-600"
+                className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor" 
-                  className="w-5 h-5"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M12 4v16m8-8H4" 
-                  />
-                </svg>
+                <img 
+                  src="/images/add-to-cart.png"
+                  alt="Add to cart"
+                  className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+                  onError={(e) => {
+                    console.error('Cart icon failed to load');
+                    e.target.style.display = 'none';
+                  }}
+                />
               </button>
             </div>
             <h2 className="text-xl font-bold mb-2">{product.title}</h2>

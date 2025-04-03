@@ -20,7 +20,7 @@ const Header = () => {
             <a href="/AddProduct" className="text-gray-600 hover:text-gray-900 transition duration-300">
               Add product to ur virtual store
             </a>
-            <a href="/Topitems" className="text-gray-600 hover:text-gray-900 transition duration-300">
+            <a href="/Legalandinfo" className="text-gray-600 hover:text-gray-900 transition duration-300">
               Contact ang Legal information
             </a>
           </div>
