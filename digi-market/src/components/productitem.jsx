@@ -33,7 +33,10 @@ const Products = ({ category }) => {
   }, [category]); // Add category as dependency
 
   const handleAddToOrder = (product) => {
-    navigate('/order', { state: { product } });
+    navigate('/order', { 
+      state: { product },
+      replace: false // This ensures history stacking works correctly
+    });
   };
 
   if (loading) {
